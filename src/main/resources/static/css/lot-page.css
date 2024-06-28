@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lot-info {
+    margin-bottom: 20px;
+}
+.lot-info div {
+    margin-bottom: 10px;
+}
+.bid-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.bid-table th, .lot-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.bid-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+.bid-table td {
+    text-align: left;
+}

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: auction-marketplace
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/semdb
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 1234
+
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+
+storage:
+  location: src\main\resources\static\img
+
+api-key: 699fa12879fabdc15447b524
